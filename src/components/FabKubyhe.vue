@@ -1,9 +1,12 @@
 <template>
   <div class="hello">
     <h1>Proceso de Elaboración</h1>
-    <h3>
+    
+    <TxtRopa />
+    
+    <!-- <h3>
       Confección de ropa de manta, lino, tipo artesanal y casual para dama, caballero y niña.
-    </h3>
+    </h3> -->
     <br>
     <div class="cuadroTxt">
       <h2>
@@ -53,7 +56,7 @@
     <div class="cuadroTxt">
       <article> <br>
         Somos una empresa familiar 100% mexicana, con experiencia en la confección de prendas de vestir para dama, caballero y niña. 
-        <br> <br> Con textiles de la más alta calidad, dedicados especialmente en manta, lino o combinada con otras texturas que puede ser algodón, en sus diferentes presentaciones.    
+        <br> <br> Con textiles de la más alta calidad, elaborados especialmente en manta, lino o combinada con otras texturas que puede ser algodón, en sus diferentes presentaciones.    
         <br> <br>
       </article>
     </div>
@@ -62,10 +65,14 @@
 </template>
 
 <script>
+import TxtRopa from './TxtRopa.vue';
 
 
 export default {
   name: 'FabKubyhe',
+  components: {
+    TxtRopa
+  }
 }
 </script>
 
@@ -86,6 +93,8 @@ a {
 
 .img1 {
   width: 80%;
+  max-width: 450px;
+  min-width: 250px;
   filter: sepia(2%);
 }
 .img1:hover {

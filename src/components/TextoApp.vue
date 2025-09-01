@@ -31,22 +31,22 @@ export default {
             { 
                 id: 1,
                 imagen: blusa34c,
-                informacion: 'Blusa en lino bordado, color beige, manga 3/4',
+                informacion: '🌿 👚 ¡Viste con Comodidad y Elegancia Natural! 👚 🌿 ¿Buscas una prenda que te haga sentir cómoda, 🌸 elegante y conectada con la naturaleza? 🌿 🌞 ',
             },
             { 
                 id: 2,
                 imagen: blusacb ,
-                informacion: 'Blusa en lino bordado, color verde, manga corta',
+                informacion: '☀️ 👗 ¡Siente la Libertad y el Estilo con Nuestras Prendas de algodón, manta y/o lino! 👗 ☀️ ',
             },
             { 
                 id: 3,
                 imagen: camisac,
-                informacion: 'Camisa en lino, botones superiores a la vista, botones inferiores ocultos',
+                informacion: '👚 👔 👕 Imagina una prenda que te brinde frescura ❄️ en los días cálidos ☀️ y un toque de sofisticación ✨ en cualquier momento 👕 👔 👚  ',
             },
             { 
                 id: 4,
                 imagen: camisacg ,
-                informacion: 'Camisa en lino, estilo Huasteco',
+                informacion: '✨ ❄️ Descubre la frescura y el estilo único de nuestras blusas y camisas en manta, lino y algodón.❄️ ✨  ¡Encuentra tu prenda ideal y luce radiante! 🌞',
             },
             ],   
         }

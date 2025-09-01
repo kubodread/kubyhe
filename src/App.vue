@@ -18,21 +18,21 @@
       </div> <br>
 
 
-<div class="content-display">
-<transition name="fade" mode="out-in">
-  <component :is="componenteActual"></component>
-</transition>
-</div>
+      <div class="content-display">
+        <transition name="fade" mode="out-in">
+          <component :is="componenteActual"></component>
+        </transition>
+      </div>
 
 
     <br><br>
-  <footer>
-     <div class="fologoytext">
+    <footer>
+      <div class="fologoytext">
             <div class="">
-                  <p class="fologotext">KubyHe ®️ 2025 ©️  </p>  
+                  <p class="fologotext">KubyHe ®️ 2025 ©️  ⚡ by <a href="http://wa.me/522281362858" target="_blank"> Kubiotec </a></p>  
             </div>  
       </div>
-  </footer>
+    </footer>
 </template>
 
 <script>
@@ -192,23 +192,21 @@ button {
 }
 
         .fologoytext {
-        background-color: #ff0100;
+        background-color: #000000;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         border-radius: 10px;
         text-size: 15px;
-        color:rgb(0, 0, 0);
-
-        
+        color:rgb(151, 151, 151);
     }
       .fologoytext:hover { 
       color: #ffffff;
-      box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
-      outline-color: rgba(49, 138, 172, 0);
+      box-shadow: inset 0 0 20px rgb(255, 250, 178), 0 0 10px rgb(255, 235, 144);
+      /*outline-color: rgb(49, 137, 172);
       outline-offset: 80px;
-      text-shadow: 1px 1px 6px #fff;
+      text-shadow: 1px 1px 4px #fff;*/
       }
       .botonContenido:hover {
       color: #ffffff;

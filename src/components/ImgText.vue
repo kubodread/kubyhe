@@ -27,7 +27,7 @@ export default {
     .figt {
         display: flex;
         width: 280px;
-        height: 420px;
+        height: fit-content;
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
@@ -49,6 +49,7 @@ export default {
 
     }
 
+     div.figt img:focus-visible,
     div.figt img:hover {
         filter: saturate(180%);
 

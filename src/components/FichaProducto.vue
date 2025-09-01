@@ -9,6 +9,7 @@
 
     <ModalB v-if="mostrarModal" @close="mostrarModal = false">
       <h2>{{ producto.titulo }}</h2>
+          <img class="figt2" :src="producto.imagen" :alt="producto.titulo">
       <p>{{ producto.informacionCompleta }}</p>
       <button @click="mostrarModal = false">Cerrar</button>
     </ModalB>
@@ -56,6 +57,12 @@ img {
         justify-content: center;
         border-radius: 45px;
     }
+
+  img.figt2 {
+    min-height: 300px;
+    max-height: 650px;
+    border-radius: 45px;
+  }
 
 /* Media Query para escritorio */
 @media (min-width: 768px) {

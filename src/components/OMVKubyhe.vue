@@ -6,7 +6,7 @@
             <h2> Objetivo: </h2>
             <article class="figt">
               
-              Lograr el desarrollo humano, económico, organizacional, elevando la calidad, la productividad y ubicación en un marcado mas competitivo, lo cual permitirá la consolidación de la empresa y de quienes participamos en el proceso productivo. 
+              Lograr el desarrollo humano, económico, organizacional, elevando la calidad, la productividad y ubicación en un mercado más competitivo, lo cual permitirá la consolidación de la empresa y de quienes participamos en el proceso productivo. 
             </article>
         
               <h2> Misión: </h2>
@@ -23,13 +23,13 @@
 
             
         <br>
-        <div class="cuadroTxt">
+        <div class="cuadroTxt ">
             <h2>Nuestro Impacto Sostenible</h2>
             <article class="figt">
               El impacto social es favorable por la accesibilidad economica de nuestras prendas.
             </article>
             <article class="figt">
-              El beneficio economico ha sido principalmente para los integrantes del grupo de trabajo, el cliente se beneficia al comprar directo AL PRODUCTOR.
+              El beneficio económico ha sido principalmente para los integrantes del grupo de trabajo, el cliente se beneficia al comprar directo AL PRODUCTOR.
             </article>
             <article class="figt">
               El medio ambiente no se deteriora, pues el proyecto no contamina.
@@ -74,6 +74,9 @@ a {
 
 .img1 {
   filter: sepia(2%);
+  width: 40%;
+  max-width: 400px;
+  min-width: 200px;
 }
 .img1:hover {
     filter: saturate(140%);
@@ -92,9 +95,11 @@ a {
         display: flex;
         align-items: center;
         background-color: lightgray;
+        color: black;
         border-radius: 15px;
         padding: 15px;
-        mask-image: linear-gradient( #1f2937 90%, transparent );
+        justify-content: center;
+        mask-image: linear-gradient( #1f2937 70%, transparent );
     }
 
 .mi-lista-elaboracion {
@@ -102,4 +107,7 @@ a {
   padding: 0;
   flex-direction: column;
 }
+
+
+
 </style>
