@@ -68,8 +68,10 @@ a {
 }
 
 #flip {
-  height:50px;
+  height:70px;
   overflow:hidden;
+  position: relative;
+
 }
 
 #flip > div > div {
@@ -79,7 +81,7 @@ a {
   margin-bottom:45px;
   border-radius: 15px;
   height: fit-content;
-  display:inline-block;
+  display:inline-flex;
 }
 
 #flip div:first-child {
@@ -97,14 +99,14 @@ a {
 }
 
 @keyframes show {
-  0% {margin-top:-270px;}
-  5% {margin-top:-180px;}
-  33% {margin-top:-180px;}
-  38% {margin-top:-90px;}
-  66% {margin-top:-90px;}
-  71% {margin-top:0px;}
-  99.99% {margin-top:0px;}
-  100% {margin-top:-270px;}
+  0% {transform: translateY(-270px);}
+  5% {transform: translateY(-180px);}
+  33% {transform: translateY(-180px);}
+  38% {transform: translateY(-90px);}
+  66% {transform: translateY(-90px);}
+  71% {transform: translateY(0px);}
+  99.99% {transform: translateY(0px);}
+  100% {transform: translateY(-270px);}
 }
 
 
