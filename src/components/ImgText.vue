@@ -35,25 +35,7 @@ export default {
         border-radius: 15px;
         padding: 5px;
     }
-    img.figtkubimg {
-        filter: sepia(60%);
 
-    }
-
-    img.figtkubimg:hover {
-        filter: saturate(180%);
-    }
-
-    div.figt img {
-        filter: sepia(40%);
-
-    }
-
-     div.figt img:focus-visible,
-    div.figt img:hover {
-        filter: saturate(180%);
-
-}
     .textf {
         text-align: justify;
         font-size: 15px;

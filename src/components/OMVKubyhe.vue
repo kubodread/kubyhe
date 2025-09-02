@@ -1,46 +1,62 @@
 <template>
   <div class="hello">
-    <h1>Nuestra Esencia</h1>
+    <h1 class="omvt">Nuestra Esencia</h1>
    <br>
-    <div class="">
-            <h2> Objetivo: </h2>
+    <div class="omvd">
+      <div class="omvd">
+            <img class="omv" alt="Kubyhe objetivos logo" src='../components/kubyhe/objetivos.svg'>
+            <h2 class="omvt"> Objetivo: </h2>
             <article class="figt">
               
               Lograr el desarrollo humano, económico, organizacional, elevando la calidad, la productividad y ubicación en un mercado más competitivo, lo cual permitirá la consolidación de la empresa y de quienes participamos en el proceso productivo. 
             </article>
-        
-              <h2> Misión: </h2>
+                    <img class="omv" alt="Kubyhe mision logo" src='../components/kubyhe/mision.svg'>
+              <h2 class="omvt"> Misión: </h2>
             <article class="figt">
             
               Empresa familiar, que se esmera por brindar el mejor servicio a su clientela, confeccionando ropa de manta, lino, tipo artesanal y casual, en línea y variedad de colores para dama, caballero y niña. <br> Proponiéndose crecer y desarrollarse como empresa, con responsabilidad y honestidad, entre y para quienes trabajamos en ella, reflejando armonía organizacional, asertividad y atención  al publico.
             </article>
-  
-              <h2> Visión: </h2>
+              <img class="omv" alt="Kubyhe vision logo" src='../components/kubyhe/vision.svg'>
+              <h2 class="omvt"> Visión: </h2>
             <article class="figt">
             
               Buscamos el crecimiento y desarrollo empresarial, económico, individual y grupalmente, logrando la excelencia. <br> En el diseño y el buen vestir permitiéndonos posicionarnos en el mercado nacional e internacional. 
-            </article>
-
-            
+            </article>         
+      </div>
         <br>
         <div class="cuadroTxt ">
             <h2>Nuestro Impacto Sostenible</h2>
             <article class="figt">
               El impacto social es favorable por la accesibilidad economica de nuestras prendas.
             </article>
+            <img class="omv" alt="Kubyhe verde logo" src='../components/kubyhe/economico.svg'>
+            <img class="omv" alt="Kubyhe verde logo" src='../components/kubyhe/vestir.svg'>
+            <img class="omv" alt="Kubyhe verde logo" src='../components/kubyhe/economicoparte.svg'>
+
             <article class="figt">
               El beneficio económico ha sido principalmente para los integrantes del grupo de trabajo, el cliente se beneficia al comprar directo AL PRODUCTOR.
             </article>
+            <img class="omv" alt="Kubyhe verde logo" src='../components/kubyhe/personal.svg'>
+            <img class="omv" alt="Kubyhe verde logo" src='../components/kubyhe/amorv.svg'>
+
             <article class="figt">
               El medio ambiente no se deteriora, pues el proyecto no contamina.
             </article>
+            <img class="omv" alt="Kubyhe verde logo" src='../components/kubyhe/arbolv.svg'>
+            <img class="omv" alt="Kubyhe verde logo" src='../components/kubyhe/ciudadv.svg'>
+            <img class="omv" alt="Kubyhe verde logo" src='../components/kubyhe/mundov.svg'>
+
             <article class="figt">
               Se trata de inculcar en las nuevas generaciones a preservar las tradiciones y el gusto por la ropa con material natural y artesanal.
             </article>
+            <img class="omv" alt="Kubyhe verde logo" src='../components/kubyhe/persona.svg'>
+            <img class="omv" alt="Kubyhe verde logo" src='../components/kubyhe/nuevo.svg'>
+            <img class="omv" alt="Kubyhe verde logo" src='../components/kubyhe/corazon.svg'>
+
         </div>
     </div>
 
-      <img class="img1" alt="Vue logo" src='../components/kubyhe/kyhv.webp'>
+      <img class="img1" alt="Kubyhe logo" src='../components/kubyhe/kyhv.webp'>
 
 
 
@@ -106,6 +122,16 @@ a {
   flex-direction: column;
 }
 
+.omv {
+  width: 100px;
+  height: auto;
+}
 
+.omvt {
+  margin: -10px;
+}
 
+.omvd {
+  margin: 40px;
+}
 </style>
