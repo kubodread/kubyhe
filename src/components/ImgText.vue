@@ -31,7 +31,7 @@ export default {
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
-        background-color: lightgray;
+        background-color: rgba(211, 211, 211, 0.466);
         border-radius: 15px;
         padding: 5px;
     }

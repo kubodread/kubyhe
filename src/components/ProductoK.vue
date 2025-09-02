@@ -19,13 +19,13 @@ import FichaProducto from './FichaProducto.vue'; // Importa el nuevo componente
 import TxtRopa from './TxtRopa.vue';
 
 
-import blusa34v from './kubyhe/prenda/blusa34-v.jpg';
+import blusa34v from './kubyhe/prenda/blusa34-v.webp';
 import blusapantalonc  from './kubyhe/prenda/blusa-pantalon-c.webp';
 import blusafaldac from './kubyhe/prenda/blusa-falda-c.webp';
-import blusa34c from './kubyhe/prenda/blusa3-4c.jpg';
-import blusacb from './kubyhe/prenda/blusa-c-b.jpg';
-import camisac from './kubyhe/prenda/camisa-c.jpg';
-import camisacg from './kubyhe/prenda/camisa-c-g.jpg';
+import blusa34c from './kubyhe/prenda/blusa3-4c.webp';
+import blusacb from './kubyhe/prenda/blusa-c-b.webp';
+import camisac from './kubyhe/prenda/camisa-c.webp';
+import camisacg from './kubyhe/prenda/camisa-c-g.webp';
 import camisalc from './kubyhe/prenda/camisalc.webp';
 import camisamc from './kubyhe/prenda/camisamc.png';
 import variedad from './kubyhe/prenda/variedad.webp';

@@ -35,9 +35,8 @@ a {
 
 
 .cuadroTxt {
-  border: solid 1px;
   border-radius: 0.8em;
-  background:rgba(201, 201, 201, 0.56);
+  /* background:rgba(201, 201, 201, 0.295); */
   padding: 15px;
 }
 
@@ -58,7 +57,7 @@ a {
   color:#000000;
   text-transform: uppercase;
   font-size:36px;
-  font-weight:bold;
+  font-weight:400;
   padding-top:10px;  
   width:100%;
   bottom:45%;

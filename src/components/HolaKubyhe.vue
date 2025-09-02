@@ -1,11 +1,9 @@
 <template>
   <div class="hello">
-    <h1>¡Bienvenidos!</h1>
-     
-      <TxtRopa />    
+  
     <img class="img1" alt="Kubyhe Ver logo" src='../components/kubyhe/kyhv.webp'>
-
-    <div class="cuadroTxt">
+      <TxtRopa />  <br>
+    <div class="cuadroTxth">
       <article> <br>
         <h4>
           Somos una empresa familiar 100% mexicana, con experiencia en la confección de prendas de vestir para dama, caballero y niña. 
@@ -59,20 +57,17 @@ a {
 
 .img1 {
   filter: sepia(2%);
-  width: 40%;
-  max-width:400px;
-  min-width: 230px;
+  width: 70%;
+  margin: -40px 0;
 
 }
 .img1:hover {
     filter: saturate(140%);
   }
 
-.cuadroTxt {
-  border: solid 1px;
+.cuadroTxth {
   border-radius: 0.8em;
-  background:rgba(201, 201, 201, 0.56);
-  padding: 15px;
+  background:rgba(201, 201, 201, 0.322);
 }
 
 

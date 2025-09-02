@@ -2,9 +2,7 @@
    
      <div class="logoytext">
             <div class="logotextomovil">
-                <a href="">
                   <img id="logo" src="../src/assets/logok.webp" alt="Logo de Kubiotec">   
-                </a> 
             </div>
       
             <div class="button-group">
@@ -29,7 +27,7 @@
     <footer>
       <div class="fologoytext">
             <div class="">
-                  <p class="fologotext">KubyHe ®️ 2025 ©️  ⚡ by <a href="http://wa.me/522281362858" target="_blank"> Kubiotec </a></p>  
+                  <p class="fologotext">KubyHe &reg; 2025 ©  ⚡ by <a href="http://wa.me/522281362858" target="_blank"> Kubiotec</a> 📲</p>  
             </div>  
       </div>
     </footer>
@@ -76,7 +74,15 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 10px;
+}
+
+body{
+  width: 100%;
+  margin: 0;
+  background: #EEAECA;
+  background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  /* background: linear-gradient(306deg,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
+  background-attachment: fixed;  
 }
 
 .img1 {
@@ -115,35 +121,34 @@ button {
         display: flex;
         flex-direction: row;
         align-items: center;
-    }
+        width: fit-content;
+}
         .logoytext {
-        background-color:rgb(255, 255, 255);
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
-        border: solid 1px ;
-        border-radius: 10px;
+        justify-content: flex-start;
+        width: 100%;
 
     }
       #logo {
         display: flex;
         align-content:flex-start;
         justify-content: flex-start;
-        width: 80%;
-        max-width: 450px;
+        width: 120px;
         height: auto;
         flex-wrap: wrap;
-        align-items: center;
+        align-items:flex-start ;
         flex-direction: row;
+        padding: 10px;
     }   
 
-   .logotextomovil a, .logotext {
+   .logotext {
         display: flex;
         align-content: center;
-        justify-content: center;
-        font-size: 48px;
+        justify-content: flex-start;
         color:rgb(0, 0, 0);
+
     }
   button.logotextomovil  {
   cursor: pointer;
@@ -159,23 +164,22 @@ button {
   margin-top: 60px;
 }
 .button-group {
-  margin-bottom: 20px;
+
 }
 
 .button-group button {
-  padding: 10px 20px;
-  margin: 5px 5px;
+  padding: 5px 10px;
+  margin: 5px 3px;
   font-size: 16px;
   cursor: pointer;
-  background-color:rgb(0, 103, 187);
-  color: white;
+  background-color:rgba(185, 178, 84, 0.459);
+  color: rgb(51, 51, 51);
   border: none;
   border-radius: 5px;
 }
 
 .content-display {
-  border: 1px solid #ddd;
-  padding: 20px;
+  padding: 0 20px;
   border-radius: 8px;
   min-height: 200px; /* Evita que el contenedor se colapse */
   display: flex;
@@ -191,15 +195,18 @@ button {
   opacity: 0;
 }
 
+.fologoytext a {
+  color: black;
+}
         .fologoytext {
-        background-color: #000000;
+        background-color: #00000079;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         border-radius: 10px;
-        text-size: 15px;
-        color:rgb(151, 151, 151);
+        font-size: 15px;
+        color:rgb(0, 0, 0);
     }
       .fologoytext:hover { 
       color: #ffffff;

@@ -74,16 +74,14 @@ a {
 
 .img1 {
   filter: sepia(2%);
-  width: 40%;
-  max-width: 400px;
-  min-width: 200px;
+  width: 60%;
+  margin: -30px;
 }
 .img1:hover {
     filter: saturate(140%);
   }
 
 .cuadroTxt {
-  border: solid 1px;
   border-radius: 0.8em;
   background:rgba(201, 201, 201, 0.32);
   padding: 15px;
@@ -94,12 +92,12 @@ a {
     .figt {
         display: flex;
         align-items: center;
-        background-color: lightgray;
+        background-color: rgba(211, 211, 211, 0.438);
         color: black;
         border-radius: 15px;
         padding: 15px;
         justify-content: center;
-        mask-image: linear-gradient( #1f2937 70%, transparent );
+        /* mask-image: linear-gradient( #1f2937 70%, transparent ); */
     }
 
 .mi-lista-elaboracion {

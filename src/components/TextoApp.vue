@@ -12,10 +12,10 @@
 <script>
 import ImgText from './ImgText.vue';
 
-import blusa34c from './kubyhe/prenda/blusa3-4c.jpg';
-import blusacb from './kubyhe/prenda/blusa-c-b.jpg';
-import camisac from './kubyhe/prenda/camisa-c.jpg';
-import camisacg from './kubyhe/prenda/camisa-c-g.jpg';
+import blusa34c from './kubyhe/prenda/blusa3-4c1.webp';
+import blusacb from './kubyhe/prenda/blusa-c-b1.webp';
+import camisac from './kubyhe/prenda/camisa-c1.webp';
+import camisacg from './kubyhe/prenda/camisa-c-g1.webp';
 
 
 export default {

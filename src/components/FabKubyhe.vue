@@ -1,17 +1,10 @@
 <template>
   <div class="hello">
-    <h1>Proceso de Elaboración</h1>
-    
     <TxtRopa />
-    
-    <!-- <h3>
-      Confección de ropa de manta, lino, tipo artesanal y casual para dama, caballero y niña.
-    </h3> -->
     <br>
     <div class="cuadroTxt">
       <h2>
       Proceso Artesanal: Creando Nuestras Prendas
-
     </h2>
     <article>
       Cada pieza que ves, es el resultado de un viaje meticuloso, lleno de dedicación y cuidado. No solo creamos ropa; tejemos historias con cada hilo. Nuestro proceso artesanal se inspira en la tradición, pero se adapta a la vida moderna, garantizando una prenda única y de la más alta calidad.
@@ -92,9 +85,8 @@ a {
 }
 
 .img1 {
-  width: 80%;
-  max-width: 450px;
-  min-width: 250px;
+  width: 60%;
+  margin: -30px;
   filter: sepia(2%);
 }
 .img1:hover {
@@ -102,9 +94,8 @@ a {
   }
 
 .cuadroTxt {
-  border: solid 1px;
   border-radius: 0.8em;
-  background:rgba(201, 201, 201, 0.56);
+  background:rgba(201, 201, 201, 0.301);
   padding: 15px;
 }
 
@@ -117,7 +108,7 @@ a {
     .figt {
         display: flex;
         align-items: center;
-        background-color: lightgray;
+        background-color: rgba(255, 242, 129, 0.180);
         border-radius: 15px;
         padding: 5px;
         mask-image: linear-gradient( #1f2937 90%, transparent );
