@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="esencia">
     <TxtRopa />
     <br>
     <div class="cuadroTxt">
@@ -113,4 +113,15 @@ a {
         padding: 5px;
         mask-image: linear-gradient( #1f2937 90%, transparent );
     }
+
+  .esencia {
+    padding-top: 20px;
+  }
+
+  @media (max-width: 768px) {
+      .esencia {
+    padding-top: 20px;
+  }
+  }
+
 </style>

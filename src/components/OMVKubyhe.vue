@@ -1,7 +1,16 @@
 <template>
-  <div class="hello">
+  <div class="esencia">
     <h1 class="omvt">Nuestra Esencia</h1>
    <br>
+     <div class="videoYT">
+    <iframe
+      :src="videoUrl"
+      title="¡TRIUNFANDO CON ICATVER - FAMILIA KUBOTA HERNÁNDEZ! "
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
     <div class="omvd">
       <div class="omvd">
             <img class="omv" alt="Kubyhe objetivos logo" src='../components/kubyhe/objetivos.svg'>
@@ -69,7 +78,17 @@
 
 export default {
   name: 'OMVKubyhe',
-
+data() {
+    return {
+      // Reemplaza con la ID del video de YouTube que deseas mostrar
+      videoId: 'Ir7JCh_v5KY', // Ejemplo: la ID de un video de Rick Astley
+      videoUrl: ''
+    };
+  },
+  mounted() {
+    // Construye la URL de YouTube de forma dinámica
+    this.videoUrl = `https://www.youtube.com/embed/${this.videoId}`;
+  }
 }
 </script>
 
@@ -132,6 +151,41 @@ a {
 }
 
 .omvd {
+  margin: 5px;
+}
+  .esencia {
+    padding-top: 20px;
+  }
+
+ 
+  .videoYT iframe {
+      width: 100%;
+      height: auto;
+  }
+  
+
+
+@media (min-width: 768px) {
+.omv {
+  width: 100px;
+  height: auto;
+}
+
+.omvt {
+  margin: -10px;
+}
+
+.omvd {
   margin: 40px;
+}
+      .esencia {
+    padding-top: 40px;
+  }
+
+  .videoYT iframe {
+      width:660px;
+      height:415px;
+  }
+
 }
 </style>
